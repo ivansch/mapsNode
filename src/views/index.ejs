@@ -1,0 +1,70 @@
+<%- layout('layouts/main') %>
+<section class="divFlex">
+  <section class="sectionP">
+    <div id="ctn-bars-search">
+      <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+    </div>
+
+      <ul id="box-search">
+
+      </ul>
+
+    <div id="cover-ctn-search"></div>
+    <div class="containerOne">
+      <!-- <div id="select-location">
+        <select name="location" id="location">
+          <option value="-1">Selecciona uno...</option>
+          <option value="40.748433, -73.985656">Empire State Building</option>
+          <option value="40.689167, -74.044444">Estatua de la Libertad</option>
+          <option value="51.507,0.1275">Londres</option>
+        </select>
+      </div> -->
+      <div id="panel2">
+              <label class="parrA">Selecciona el tipo de Institución:</label>
+              <br>
+              <select id="estilo2">
+                <!-- <option value="Todos">Todos</option> -->
+                <option value="Escuela">Escuelas</option>
+                <option value="Organizacion">Organizaciones</option>
+              </select>
+        </div>
+      <div id="panel">
+              <label class="parrA">Selecciona un Ejé temático :</label>
+              <select id="estilo">
+                <!-- <option value="Todos">Todos</option> -->
+                <option value="Biografías de desaparecides en la comunidad">Biografías de desaparecides en la comunidad</option>
+                <option value="Guerra de Malvinas">Guerra de Malvinas</option>
+                <option value="Percepciones actuales sobre la dictadura">Percepciones actuales sobre la dictadura</option>
+                <option value="Vida cotidiana durante la dictadura">Vida cotidiana durante la dictadura</option>
+                <option value="Centros clandestinos, marcas y sitios de memoria" >Centros clandestinos, marcas y sitios de memoria</option>
+                <option value="TODOS"  >Todos</option>
+                <option value="Episodios locales de represión y resistencia">Episodios locales de represión y resistencia</option>
+                <option value="Seguridad y derechos humanos">Seguridad y derechos humanos</option>
+                <option value="Episodios de violencia policial en democracia">Episodios de violencia policial en democracia</option>
+                <option value="Desigualdad y exclusión social">Desigualdad y exclusión social</option>
+                <option value="Derecho a la salud">Derecho a la salud</option>
+                <option value="Prácticas educativas de ayer y de hoy">Prácticas educativas de ayer y de hoy</option>
+                <option value="La educación como derecho">La educación como derecho</option>
+                <option value="Migrantes, identidades y fronteras">Migrantes, identidades y fronteras</option>
+                <option value="Historias e identidades en nuestra comunidad">Historias e identidades en nuestra comunidad</option>
+                <option value="Derecho a un ambiente digno">Derecho a un ambiente digno</option>
+                <option value="Desarrollo económico, sustentabilidad y derechos humanos">Desarrollo económico, sustentabilidad y derechos humanos</option>
+                <option value="Trabajo infantil">Trabajo infantil</option>
+                <option value="Políticas y transformaciones económicas">Políticas y transformaciones económicas</option>
+                <option value="Luchas obreras y mundo del trabajo">Luchas obreras y mundo del trabajo</option>
+                <option value="Género y derechos humanos">Género y derechos humanos</option>
+                <option value="Diversidades sexuales y de género">Diversidades sexuales y de género</option>
+                <option value="Militancias y organización popular">Militancias y organización popular</option>
+                <option value="Arte y cultura">Arte y cultura</option>
+                <option value="Discursos dominantes y medios de comunicación">Discursos dominantes y medios de comunicación</option>
+                <option value="Relatos de pandemia">Relatos de pandemia</option>
+              </select>
+        </div>
+    </div>
+
+  </section>
+
+  <section class="mapContainer">
+    <div id="map-template"></div>
+  </section>
+</section>

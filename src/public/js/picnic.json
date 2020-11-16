@@ -1,0 +1,18 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [long1, lat1],
+        [long2, lat2],
+        [long3, lat3]
+      ]
+    ]
+  },
+  "properties": {
+    "Playground": Yes,
+    "Picnic": Yes,
+    "ParkName": "Barr Lake",
+    "ParkStatus": "Open"
+  }

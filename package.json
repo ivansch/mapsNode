@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-leaftlet-socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convert-csv-to-json": "^1.0.0",
+    "csv2json": "^2.0.2",
+    "csvtojson": "^2.0.10",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
